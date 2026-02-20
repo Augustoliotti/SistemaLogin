@@ -1,0 +1,67 @@
+.login-container {
+    max-width: 420px;
+    margin: 6vh auto;
+    padding: 2.5rem;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 10px 30px rgba(2,12,40,0.6);
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.75rem;
+}
+
+input {
+    width: 100%;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+input::placeholder { color: rgba(255,255,255,0.6); }
+
+button {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    background: linear-gradient(90deg,#2563eb,#7c3aed);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 6px 18px rgba(99,102,241,0.28);
+}
+
+.erro {
+    color: #ffb4b4;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.85);
+}
+
+.link a {
+    color: #a5b4fc;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 0.35rem;
+}
+
+@media (max-width: 480px) {
+    .login-container { margin: 4vh 1rem; padding: 1.25rem; }
+    h2 { font-size: 1.5rem; }
+}

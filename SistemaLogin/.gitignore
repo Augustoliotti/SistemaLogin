@@ -1,0 +1,37 @@
+# .NET build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Logs, databases, caches
+*.log
+*.db
+
+# ASP.NET Core config (don't push development secrets)
+appsettings.Development.json
+secrets.json
+
+# Static libraries installed by package managers
+wwwroot/lib/
+
+# Publish output
+publish/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# npm/node
+node_modules/
+
+# JetBrains Rider
+*.sln.iml

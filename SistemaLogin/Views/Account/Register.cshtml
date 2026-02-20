@@ -1,0 +1,19 @@
+@model SistemaLogin.Models.Usuario
+
+<link rel="stylesheet" href="~/css/login.css" />
+
+<div class="login-container">
+    <h2>Cadastro</h2>
+
+    <form method="post">
+        <input asp-for="Nome" placeholder="Nome" required />
+        <input asp-for="Email" placeholder="Email" required />
+        <input asp-for="Senha" type="password" placeholder="Senha" required />
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p class="link">
+        Já tem conta?
+        <a href="/Account/Login">Entrar</a>
+    </p>
+</div>
